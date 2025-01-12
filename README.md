@@ -1,4 +1,4 @@
-# 👋 Hello! I'm Yeonwoo Cha!
+👋 Hello! I'm Yeonwoo Cha!
 
 I'm a MS student who enjoys exploring the intersection of **computer science**, **machine learning**, and **computer vision**. 
 
