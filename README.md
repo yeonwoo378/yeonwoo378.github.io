@@ -5,9 +5,9 @@ I'm a MS student who enjoys exploring the intersection of **computer science**, 
 ## 🌟 About Me
 
 - 💻 **Area of Interest**: Deep learning, Computer Vision, Diffusion Models
-- 📘 **Current Learning**: iffusion Models
+- 📘 **Current Learning**: Diffusion Models
 - 📍 **From**: South Korea 🇰🇷
-- 📫 **How to reach me**: [ckdusdn03@kaist.ac.kr](mailto:ckdusdn03@kaist.ac.kr) | [LinkedIn](https://linkedin.com/in/your-link)
+- 📫 **How to reach me**: [ckdusdn03@kaist.ac.kr](mailto:ckdusdn03@kaist.ac.kr) | [LinkedIn](https://www.linkedin.com/in/yeonwoo-cha-b8a685307/)
 
 ---
 
