@@ -1,24 +1,20 @@
-# 👋 Hello! I'm Yeonwoo Cha (20210631) 
+# 👋 Hello! I'm Yeonwoo Cha!
 
-Welcome to my personal GitHub page! I'm a passionate developer and learner who enjoys exploring the intersection of **computer science**, **machine learning**, and **system design**. I also enjoy solving challenging problems and bringing ideas to life through code.
+I'm a MS student who enjoys exploring the intersection of **computer science**, **machine learning**, and **computer vision**. 
 
 ## 🌟 About Me
 
-- 💻 **Area of Interest**: Operating systems, deep learning, and algorithm optimization.
-- 📘 **Current Learning**: Improving reasoning abilities of large language models and working on Korean CSAT-based datasets.
+- 💻 **Area of Interest**: Deep learning, Computer Vision, Diffusion Models
+- 📘 **Current Learning**: iffusion Models
 - 📍 **From**: South Korea 🇰🇷
-- 📫 **How to reach me**: [yeonwoo@example.com](mailto:yeonwoo@example.com) | [LinkedIn](https://linkedin.com/in/your-link)
+- 📫 **How to reach me**: [ckdusdn03@kaist.ac.kr](mailto:ckdusdn03@kaist.ac.kr) | [LinkedIn](https://linkedin.com/in/your-link)
 
 ---
 
 ## 🛠️ Skills
 
 - **Programming Languages**: Python, C, SQL, Java
-- **Frameworks & Tools**: PyTorch, TensorFlow, PintOS, Git
-- **Topics of Expertise**:
-  - Systems programming (PintOS, trap management)
-  - Machine learning (Neural Networks, RNNs, Transformers)
-  - Database management and optimization (SQL, JDBC)
+- **Frameworks & Tools**: PyTorch, TensorFlow, Git
 
 ---
 
