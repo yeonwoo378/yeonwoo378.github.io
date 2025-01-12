@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yeonwoo Cha's Homepage</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Navigation Bar Styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 15px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+      border-radius: 5px;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar .menu {
+      display: flex;
+      gap: 15px;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .hero {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo">Yeonwoo Cha</div>
+    <div class="menu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <section id="about" class="hero">
+    <h1>Welcome to My Homepage!</h1>
+    <p>Hello! I'm Yeonwoo Cha, a developer passionate about system design and machine learning. Explore my projects and learn more about me below!</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li><a href="https://github.com/your-repo-link">Reasoning with Korean CSAT</a></li>
+      <li><a href="https://github.com/your-repo-link">PintOS Enhancements</a></li>
+      <li><a href="https://github.com/your-repo-link">Image Segmentation Model</a></li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <p>Python, C, PyTorch, TensorFlow, SQL, PintOS</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yeonwoo@example.com">yeonwoo@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/your-link" target="_blank">Your LinkedIn</a></p>
+  </section>
+</body>
+</html>
