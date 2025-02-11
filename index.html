@@ -12,12 +12,13 @@
       box-sizing: border-box;
     }
 
-    /* Navigation Bar Styles */
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
+      background-color: #f9f9f9;
     }
 
+    /* Navigation Bar */
     .navbar {
       background-color: #333;
       color: #fff;
@@ -52,15 +53,63 @@
       gap: 15px;
     }
 
+    /* Hero Section with Photo */
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      filter: brightness(70%);
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
     /* Section Styles */
     section {
       padding: 20px;
       margin: 20px auto;
       max-width: 800px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    .hero {
-      text-align: center;
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .navbar .menu {
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .hero-text {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
@@ -76,9 +125,15 @@
     </div>
   </div>
 
+  <!-- Hero Section with Photo -->
+  <div class="hero">
+    <img src="your-photo.jpg" alt="Background Image">  <!-- Replace with your photo -->
+    <div class="hero-text">Welcome to My Homepage!</div>
+  </div>
+
   <!-- Content Sections -->
-  <section id="about" class="hero">
-    <h1>Welcome to My Homepage!</h1>
+  <section id="about">
+    <h2>About Me</h2>
     <p>Hello! I'm Yeonwoo Cha, a developer passionate about system design and machine learning. Explore my projects and learn more about me below!</p>
   </section>
 
@@ -92,7 +147,7 @@
   </section>
 
   <section id="skills">
-    <h2>My Skills</h2>
+    <h2>Skills</h2>
     <p>Python, C, PyTorch, TensorFlow, SQL, PintOS</p>
   </section>
 
