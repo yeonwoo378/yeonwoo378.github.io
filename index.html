@@ -3,96 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yeonwoo Cha | Researcher in AI & CV</title>
+  <title>Yeonwoo Cha</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
+      line-height: 1.8;
       background-color: #f9f9f9;
       color: #333;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Navigation Bar */
-    .navbar {
-      background-color: #333;
-      color: #fff;
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .navbar a {
-      color: #fff;
-      text-decoration: none;
-      margin-left: 15px;
-      transition: color 0.3s;
-    }
-
-    .navbar a:hover {
-      color: #ddd;
-    }
-
-    .navbar .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-
-    /* About Section */
-    .about-container {
-      display: flex;
-      align-items: center;
-      max-width: 800px;
       margin: 40px auto;
-      padding: 20px;
-    }
-
-    .about-photo {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid #333;
-      margin-right: 20px;
-    }
-
-    .about-text h2 {
-      margin-bottom: 10px;
-    }
-
-    .about-text p {
-      font-size: 1.1rem;
-    }
-
-    /* Sections */
-    section {
       max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    h2 {
-      color: #222;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
+      padding: 0 20px;
     }
 
     a {
@@ -104,90 +24,92 @@
       text-decoration: underline;
     }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-      .about-container {
-        flex-direction: column;
-        text-align: center;
-      }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
 
-      .about-photo {
-        margin-bottom: 10px;
-      }
+    .navbar a {
+      margin-left: 15px;
+      font-size: 0.9rem;
+    }
+
+    .about {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .about img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .about h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .about p {
+      margin: 5px 0;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 15px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
   <div class="navbar">
-    <div class="logo">Yeonwoo Cha</div>
-    <div class="menu">
+    <span><strong>Yeonwoo Cha</strong></span>
+    <span>
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#publications">Publications</a>
-      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
+    </span>
+  </div>
+
+  <div class="about" id="about">
+    <img src="profile.jpeg" alt="Yeonwoo Cha">
+    <div>
+      <h1>Yeonwoo Cha</h1>
+      <p>Graduate student in Computer Science.</p>
+      <p>Interested in <strong>Computer Vision</strong>, <strong>Generative Models</strong>, and <strong>Diffusion Models</strong>.</p>
     </div>
   </div>
 
-  <!-- About Section -->
-  <div class="about-container" id="about">
-    <img src="profile.jpeg" alt="Yeonwoo Cha" class="about-photo">
-    <div class="about-text">
-      <h2>Hi, I'm Yeonwoo Cha 👋</h2>
-      <p>I'm a **graduate student** in Computer Science specializing in **Computer Vision** and **Generative AI**. My research focuses on **Diffusion Models, Flow Matching, and Large-Scale Generative Models**.</p>
-    </div>
-  </div>
+  <h2 id="education">Education</h2>
+  <p>Master's in Computer Science, 2025 - Present<br>Graduate School, South Korea</p>
+  <p>Bachelor's in Computer Science, 2021 - 2025<br>Your University Name, South Korea</p>
 
-  <!-- Education Section -->
-  <section id="education">
-    <h2>🎓 Education</h2>
-    <ul>
-      <li>
-        <strong>Master's in Computer Science</strong> (2025 - Present) <br>
-        Graduate School, South Korea
-      </li>
-      <li>
-        <strong>Bachelor's in Computer Science</strong> (2021 - 2025) <br>
-        Your University Name, South Korea
-      </li>
-    </ul>
-  </section>
+  <h2 id="publications">Publications</h2>
+  <ul>
+    <li>
+      <strong>Yeonwoo Cha</strong>, "Test-Time Scaling for Diffusion Models with Reward Mechanisms," <em>NeurIPS Workshop</em>, 2024.  
+      <a href="https://link-to-publication.com" target="_blank">[Read Paper]</a>
+    </li>
+    <li>
+      <strong>Yeonwoo Cha</strong>, "Improving Reasoning in LLMs with Korean CSAT Dataset," <em>Journal of AI Research</em>, 2024.  
+      <a href="https://link-to-publication.com" target="_blank">[View Paper]</a>
+    </li>
+  </ul>
 
-  <!-- Publications Section -->
-  <section id="publications">
-    <h2>📚 Publications</h2>
-    <ul>
-      <li>
-        <strong>Yeonwoo Cha</strong>, "Test-Time Scaling for Diffusion Models with Reward Mechanisms," <em>NeurIPS Workshop</em>, 2024. 
-        <a href="https://link-to-publication.com" target="_blank">[Read Paper]</a>
-      </li>
-      <li>
-        <strong>Yeonwoo Cha</strong>, "Improving Reasoning in LLMs with Korean CSAT Dataset," <em>Journal of AI Research</em>, 2024. 
-        <a href="https://link-to-publication.com" target="_blank">[View Paper]</a>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>🛠️ Skills</h2>
-    <ul>
-      <li>Machine Learning & Deep Learning: PyTorch, TensorFlow</li>
-      <li>Generative Models: Diffusion Models, Flow Matching, GANs</li>
-      <li>Computer Vision: Image Processing, Object Detection</li>
-      <li>Programming: Python, C, SQL</li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>📬 Contact</h2>
-    <p>Email: <a href="mailto:yeonwoo@example.com">yeonwoo@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/your-link" target="_blank">Your LinkedIn</a></p>
-  </section>
+  <h2 id="contact">Contact</h2>
+  <p>Email: <a href="mailto:yeonwoo@example.com">yeonwoo@example.com</a></p>
+  <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/your-link" target="_blank">Your LinkedIn</a></p>
 
 </body>
 </html>
