@@ -3,27 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yeonwoo Cha's Homepage</title>
+  <title>Yeonwoo Cha | Researcher in AI & CV</title>
   <style>
-    /* Basic Reset */
-/*     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
- */
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
       background-color: #f9f9f9;
-/*       padding: 20px; */
+      color: #333;
+      margin: 0;
+      padding: 0;
     }
 
     /* Navigation Bar */
     .navbar {
       background-color: #333;
       color: #fff;
-      padding: 10px 20px;
+      padding: 15px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -35,13 +30,12 @@
     .navbar a {
       color: #fff;
       text-decoration: none;
-/*       padding: 8px 15px; */
-      transition: background-color 0.3s ease;
+      margin-left: 15px;
+      transition: color 0.3s;
     }
 
     .navbar a:hover {
-      background-color: #575757;
-      border-radius: 5px;
+      color: #ddd;
     }
 
     .navbar .logo {
@@ -49,53 +43,51 @@
       font-weight: bold;
     }
 
-    .navbar .menu {
-      display: flex;
-      gap: 15px;
-    }
-
-    /* About Section with Photo */
+    /* About Section */
     .about-container {
       display: flex;
       align-items: center;
-/*       gap: 20px;
-      background-color: white;
+      max-width: 800px;
+      margin: 40px auto;
       padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      margin: 20px auto;
-      max-width: 800px; */
     }
 
     .about-photo {
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #333;
+      border: 2px solid #333;
+      margin-right: 20px;
     }
 
-    .about-text {
-      flex: 1;
+    .about-text h2 {
+      margin-bottom: 10px;
     }
 
-    /* Section Styles */
-/*     section {
-      padding: 20px;
-      margin: 20px auto;
+    .about-text p {
+      font-size: 1.1rem;
+    }
+
+    /* Sections */
+    section {
       max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
       background-color: white;
-      border-radius: 10px;
+      border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
-      color: #333;
-      margin-bottom: 10px;
+      color: #222;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
     }
 
     ul {
-      list-style-type: none;
+      list-style: none;
       padding-left: 0;
     }
 
@@ -111,8 +103,8 @@
     a:hover {
       text-decoration: underline;
     }
- */
-    /* Responsive Design */
+
+    /* Responsive */
     @media (max-width: 768px) {
       .about-container {
         flex-direction: column;
@@ -120,13 +112,13 @@
       }
 
       .about-photo {
-        width: 120px;
-        height: 120px;
+        margin-bottom: 10px;
       }
     }
   </style>
 </head>
 <body>
+
   <!-- Navigation Bar -->
   <div class="navbar">
     <div class="logo">Yeonwoo Cha</div>
@@ -134,20 +126,19 @@
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#publications">Publications</a>
-      <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
 
-  <!-- About Section with Small Photo -->
+  <!-- About Section -->
   <div class="about-container" id="about">
-    <img src="profile.jpeg" alt="Yeonwoo Cha" class="about-photo">  <!-- Replace with your photo -->
+    <img src="profile.jpeg" alt="Yeonwoo Cha" class="about-photo">
     <div class="about-text">
-      <h2>   Hi, I'm Yeonwoo Cha 👋</h2>
-      <p>   I'm a developer passionate about system design and machine learning. I enjoy solving complex problems, creating efficient systems, and exploring the world of AI. 🚀</p>
+      <h2>Hi, I'm Yeonwoo Cha 👋</h2>
+      <p>I'm a **graduate student** in Computer Science specializing in **Computer Vision** and **Generative AI**. My research focuses on **Diffusion Models, Flow Matching, and Large-Scale Generative Models**.</p>
     </div>
-  </div> 
+  </div>
 
   <!-- Education Section -->
   <section id="education">
@@ -169,26 +160,34 @@
     <h2>📚 Publications</h2>
     <ul>
       <li>
+        <strong>Yeonwoo Cha</strong>, "Test-Time Scaling for Diffusion Models with Reward Mechanisms," <em>NeurIPS Workshop</em>, 2024. 
+        <a href="https://link-to-publication.com" target="_blank">[Read Paper]</a>
+      </li>
+      <li>
         <strong>Yeonwoo Cha</strong>, "Improving Reasoning in LLMs with Korean CSAT Dataset," <em>Journal of AI Research</em>, 2024. 
         <a href="https://link-to-publication.com" target="_blank">[View Paper]</a>
       </li>
-
     </ul>
   </section>
-
-
 
   <!-- Skills Section -->
   <section id="skills">
     <h2>🛠️ Skills</h2>
-    <p>Python, C, PyTorch, TensorFlow, SQL, PintOS</p>
+    <ul>
+      <li>Machine Learning & Deep Learning: PyTorch, TensorFlow</li>
+      <li>Generative Models: Diffusion Models, Flow Matching, GANs</li>
+      <li>Computer Vision: Image Processing, Object Detection</li>
+      <li>Programming: Python, C, SQL</li>
+    </ul>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
-    <h2>📬 Contact Me</h2>
+    <h2>📬 Contact</h2>
     <p>Email: <a href="mailto:yeonwoo@example.com">yeonwoo@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/your-link" target="_blank">Your LinkedIn</a></p>
   </section>
+
 </body>
 </html>
