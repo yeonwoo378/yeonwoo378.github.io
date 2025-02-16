@@ -39,20 +39,21 @@
     .about {
       display: flex;
       align-items: center;
-      margin-top: 30px;
+      margin-top: 40px;
     }
 
     .about img {
-      width: 100px;
-      height: 100px;
+      width: 140px; /* 기존보다 키움 */
+      height: 140px;
       border-radius: 50%;
       object-fit: cover;
-      margin-right: 20px;
+      margin-right: 25px;
+      border: 2px solid #333;
     }
 
     .about h1 {
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
 
     .about p {
@@ -66,6 +67,19 @@
 
     ul {
       padding-left: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .about {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about img {
+        width: 160px; /* 모바일에서는 좀 더 크고 가운데 배치 */
+        height: 160px;
+        margin-bottom: 15px;
+      }
     }
   </style>
 </head>
