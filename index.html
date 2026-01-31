@@ -6,17 +6,17 @@
   <title>Yeonwoo Cha</title>
   <style>
     :root{
-      --bg: #f7f8fb;
-      --panel: rgba(255,255,255,.86);
-      --panel-solid: #ffffff;
-      --text: #111827;
-      --muted: #4b5563;
-      --border: rgba(17,24,39,.10);
-      --shadow: 0 10px 30px rgba(17,24,39,.08);
-      --shadow-sm: 0 6px 16px rgba(17,24,39,.06);
-      --accent: #2563eb;
-      --accent-2: #7c3aed;
-      --ring: rgba(37,99,235,.25);
+      --bg: #0b0f14;
+      --panel: rgba(17,19,24,.78);
+      --panel-solid: #111318;
+      --text: #e7e9ee;
+      --muted: #a7acb7;
+      --border: rgba(231,233,238,.10);
+      --shadow: 0 14px 34px rgba(0,0,0,.35);
+      --shadow-sm: 0 8px 18px rgba(0,0,0,.28);
+      --accent: #8ab4f8;     /* 링크만 은은한 쿨톤 */
+      --accent-2: #b7a5ff;
+      --ring: rgba(138,180,248,.28);
       --radius: 18px;
       --radius-sm: 14px;
       --maxw: 920px;
@@ -40,17 +40,19 @@
 
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body {
+    
+      body {
       margin: 0;
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
       line-height: 1.75;
       color: var(--text);
       background:
-        radial-gradient(1200px 700px at 15% 10%, rgba(37,99,235,.10), transparent 55%),
-        radial-gradient(900px 600px at 85% 15%, rgba(124,58,237,.10), transparent 60%),
-        radial-gradient(900px 700px at 40% 95%, rgba(37,99,235,.08), transparent 55%),
-        var(--bg);
+        radial-gradient(1100px 700px at 20% 10%, rgba(255,255,255,.06), transparent 60%),
+        radial-gradient(900px 600px at 85% 15%, rgba(255,255,255,.04), transparent 60%),
+        radial-gradient(900px 700px at 40% 95%, rgba(255,255,255,.03), transparent 55%),
+        linear-gradient(180deg, #0b0f14 0%, #0a0d12 45%, #070a0f 100%);
     }
+
 
     a {
       color: var(--accent);
@@ -300,14 +302,14 @@
             <p>Interested in <strong>Computer Vision</strong>, <strong>Generative Models</strong>, and <strong>Diffusion Models</strong>.</p>
             <p><a href="https://vllab.kaist.ac.kr" target="_blank">Vision and Learning Lab @ KAIST</a></p>
 
-            <div class="subline">
+            <!-- <div class="subline">
               <span class="badge">Deep Learning Researcher Profile</span>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="lead">
-          I'm a Master's student in the School of Computing at Korea Advanced Institute of Science and Technology (KAIST), advised by Prof. Seunghoon Hong. My research interests lie in computer vision, particularly in diffusion models and flow matching.
+          I'm a Master's student in the School of Computing at Korea Advanced Institute of Science and Technology (KAIST) VL LAB, advised by Prof. Seunghoon Hong. My research interests lie in computer vision, particularly in diffusion models and flow matching.
         </div>
       </div>
     </section>
