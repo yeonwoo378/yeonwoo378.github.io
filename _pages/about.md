@@ -18,9 +18,6 @@ I am a graduate student at KAIST, where I am fortunate to be advised by Professo
 <div id="publications"></div>
 
 ## Publications
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
@@ -32,10 +29,10 @@ I am a graduate student at KAIST, where I am fortunate to be advised by Professo
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      {% unless title_shown %}
+      <!-- {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
-      {% endunless %}
+      {% endunless %} -->
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
@@ -43,4 +40,10 @@ I am a graduate student at KAIST, where I am fortunate to be advised by Professo
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
+{% endif %}
+
+
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
