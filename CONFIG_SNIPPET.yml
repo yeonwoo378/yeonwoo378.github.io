@@ -1,0 +1,76 @@
+# Paste / replace these blocks inside your academicpages _config.yml
+
+locale : "en-US"
+site_theme : "default"
+title : "Yeonwoo Cha"
+title_separator : "-"
+name : &name "Yeonwoo Cha"
+description : &description "Yeonwoo Cha's academic website"
+url : "https://yeonwoo378.github.io"   # change if your site URL is different
+baseurl : ""
+repository : "yeonwoo378/yeonwoo378.github.io"  # change if your repo name is different
+
+author:
+  avatar : "profile.jpeg"  # put this file in /images/profile.jpeg
+  name : "Yeonwoo Cha"
+  pronouns :
+  bio : "Master's student in Computer Science at KAIST working on computer vision, diffusion models, and flow matching."
+  location : "South Korea"
+  employer : "Vision and Learning Lab @ KAIST"
+  uri : "https://vllab.kaist.ac.kr"
+  email : "ckdusdn03@kaist.ac.kr"
+
+  # Academic websites
+  academia :
+  arxiv :
+  googlescholar : "https://scholar.google.com/citations?user=mh4jjI0AAAAJ&hl=en&oi=sra"
+  inspire-hep :
+  impactstory :
+  orcid :
+  semantic :
+  ssrn :
+  pubmed :
+  researchgate :
+  scopus :
+  zotero :
+
+  # Repositories and software development
+  bitbucket :
+  codepen :
+  dribbble :
+  github : "yeonwoo378"
+  kaggle :
+  stackoverflow :
+
+  # Social media
+  artstation :
+  bluesky :
+  facebook :
+  flickr :
+  foursquare :
+  goodreads :
+  google_plus :
+  keybase :
+  instagram :
+  lastfm :
+  linkedin : "yeonwoo-cha-b8a685307"
+  mastodon :
+  medium :
+  pinterest :
+  soundcloud :
+  steam :
+  telegram :
+  tumblr :
+  twitter :
+  vine :
+  weibo :
+  wikipedia :
+  xing :
+  youtube :
+  zhihu :
+
+publication_category:
+  conferences:
+    title: "Conference Papers"
+  manuscripts:
+    title: "Preprints / Workshop Papers"
