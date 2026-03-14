@@ -29,10 +29,10 @@ I am a graduate student at KAIST, where I am fortunate to be advised by Professo
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      <!-- {% unless title_shown %}
+      {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
-      {% endunless %} -->
+      {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
