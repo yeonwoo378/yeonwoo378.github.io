@@ -48,3 +48,16 @@ I am a graduate student at KAIST, where I am fortunate to be advised by Professo
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+
+<div id="teaching"></div>
+
+## Teaching
+
+- **CS101** Introduction to Programming, Teaching Assistant, KAIST, 2022 Fall – 2024 Spring
+- **CS371** Introduction to Deep Learning, Teaching Assistant, KAIST, 2025 Fall
+
+<div id="academic-services"></div>
+
+## Academic Services
+
+- **Reviewer**: ICLR 2026, CVPR 2026
