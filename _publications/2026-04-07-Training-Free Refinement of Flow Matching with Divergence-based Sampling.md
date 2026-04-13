@@ -11,4 +11,3 @@ projecturl: "https://yeonwoo378.github.io/official_fds/"
 code: https://github.com/yeonwoo378/flow-divergence-sampler
 ---
 
-\* Equal contribution.
