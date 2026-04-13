@@ -6,6 +6,7 @@ permalink: /publication/flowbind/
 excerpt: "Efficient any-to-any multimodal generation with bidirectional flows."
 year: 2026
 venue: "ICLR"
+authors: "Yeonwoo Cha*, Semin Kim*, Jinhyeon Kwon, Seunghoon Hong"
 paperurl: "https://arxiv.org/abs/2512.15420"
 projecturl: "https://yeonwoo378.github.io/official_flowbind"
 code: https://github.com/yeonwoo378/flowbind
