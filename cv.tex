@@ -1,0 +1,110 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{ulem}
+
+\geometry{
+  top=0.85in,
+  bottom=0.85in,
+  left=0.65in,
+  right=0.65in
+}
+
+\newcommand{\name}[1]{
+  \begin{center}
+    {\Large \bfseries #1}\\[0.1cm]
+  \end{center}
+}
+
+\newcommand{\cvsection}[1]{
+  \vspace{0.35cm}
+  {\normalsize \bfseries #1}\\[-0.35cm]
+  \rule{\linewidth}{0.4pt}
+  \vspace{0.05cm}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\begin{document}
+
+\name{YEONWOO CHA}
+
+\begin{center}
+  \small
+  Email: \href{mailto:ckdusdn03@kaist.ac.kr}{ckdusdn03@kaist.ac.kr} \,|\,
+  GitHub: \href{https://github.com/yeonwoo378}{github.com/yeonwoo378} \,|\,
+  LinkedIn: \href{https://www.linkedin.com/in/yeonwoo-cha-b8a685307/}{linkedin.com/in/yeonwoo-cha-b8a685307/}
+\end{center}
+
+\cvsection{Education}
+
+\textbf{M.S. in Computer Science}, KAIST, South Korea \hfill Mar 2025 -- Present\\
+\textbf{B.S. in Computer Science and Electronic Engineering (Double Major)}, KAIST, South Korea \hfill Mar 2021 -- Feb 2025
+
+\cvsection{Research Interests}
+
+\begin{itemize}[leftmargin=0.5cm, itemsep=2pt, topsep=1pt]
+  \item Generative Models: Diffusion Models, Flow Matching, Score-Based Methods
+  \item Computer Vision and Representation Learning
+\end{itemize}
+
+\cvsection{Publications}
+
+\textbf{FlowBind: Efficient Any-to-Any Generation with Bidirectional Flows}\\
+\uline{Yeonwoo Cha}*, Semin Kim*, Jinhyeon Kwon, Seunghoon Hong \quad {\small (* Equal contribution)}\\
+\textit{ICLR}, 2026 \quad
+\href{https://arxiv.org/abs/2512.15420}{[arXiv]}
+\href{https://github.com/yeonwoo378/flowbind}{[Code]}
+\href{https://yeonwoo378.github.io/official_flowbind}{[Project Page]}
+
+\vspace{0.1cm}
+
+\textbf{Reward-Agnostic Prompt Optimization for Text-to-Image Diffusion Models}\\
+Semin Kim, \uline{Yeonwoo Cha}, Jaehoon Yoo, Seunghoon Hong\\
+\textit{arXiv}, 2025 \quad
+\href{https://arxiv.org/abs/2506.16853}{[arXiv]}
+\href{https://github.com/SeminKim/RATTPO}{[Code]}
+
+\vspace{0.1cm}
+
+\textbf{Simulation-Free Training of Neural ODEs on Paired Data}\\
+Semin Kim, Jaehoon Yoo, Jinwoo Kim, \uline{Yeonwoo Cha}, Saehoon Kim, Seunghoon Hong\\
+\textit{NeurIPS}, 2024 \quad
+\href{https://arxiv.org/abs/2410.22918}{[arXiv]}
+\href{https://github.com/seminkim/simulation-free-node}{[Code]}
+
+\cvsection{Experience}
+
+\textbf{Undergraduate Research Intern}, VLLAB, KAIST \hfill 2024\\
+\textbf{Exchange Student}, Technical University of Denmark (DTU) \hfill 2023
+
+\cvsection{Teaching Experience}
+
+\textbf{Teaching Assistant}, CS371: Introduction to Deep Learning, KAIST \hfill Sept 2025 -- Dec 2025
+
+\vspace{0.1cm}
+
+\textbf{Teaching Assistant}, CS101: Introduction to Programming, KAIST \hfill Sept 2022 -- June 2024
+\begin{itemize}[leftmargin=0.5cm, itemsep=2pt, topsep=2pt]
+  \item Assisted in \textbf{Python programming}.
+  \item Held office hours and led \textbf{recitation sessions for undergraduates}.
+\end{itemize}
+
+\cvsection{Academic Services}
+
+\textbf{Reviewer}: ICLR 2026, CVPR 2026
+
+\cvsection{Skills}
+
+\begin{itemize}[leftmargin=0.5cm, itemsep=2pt, topsep=1pt]
+  \item \textbf{Programming}: Python, C, Java
+  \item \textbf{Deep Learning}: PyTorch, TensorFlow
+  \item \textbf{Tools}: Git, Linux, \LaTeX
+\end{itemize}
+
+\end{document}
