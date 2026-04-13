@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student at KAIST, where I am fortunate to be advised by Professor [Seunghoon Hong](https://maga33.github.io/). My research interests lie in the advancement of Generative Models, with a specific focus on Flow Matching and Diffusion.
+I am a graduate student at KAIST [VLLAB](https://vllab.kaist.ac.kr/), where I am fortunate to be advised by Professor [Seunghoon Hong](https://maga33.github.io/). My research interests lie in the advancement of Generative Models, with a specific focus on Flow Matching and Diffusion.
 
 <div id="education"></div>
 
